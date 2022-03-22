@@ -11,30 +11,33 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Telecommunication Engineering, University of the Basque Country, 2017
+* M.S. in Telecommunication Engineering, University of the Basque Country, 2019
+  * Eastern New Mexico University, Data Analysis, Aug 2018 - Dec 2018
+* Ph.D in Reinforcement Learning, University of the Basque Country, 2023 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Sep 2015 - Sep 2017: Control & Telemetry Manager at [Formula Student Bizkaia](https://www.fsbizkaia.com/)
+  * University of the Basque Country
+  * Duties included: Program the control and communication systems of the electric vehicle
+  * Supervisor: [Asier Zubizarreta Pico](https://scholar.google.es/citations?user=dZ91H9cAAAAJ&hl=es)
+* Dec 2017 - Jul 2018: Cibersecurity Internship
+  * University of the Basque Country & TECNALIA
+  * Data anonymization/pseudonymization, Post-quantum algorithms, Quantum Key Distribution
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming
+  * Python
+    * PyTorch, pandas, numpy, etc
+  * C
+  * LabVIEW
+  * Matlab
+* Data Analysis
+* Deep Learning
+* Linux
 
 Publications
 ======
@@ -42,6 +45,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+<!---
 Talks
 ======
   <ul>{% for post in site.talks %}
@@ -53,7 +57,4 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+-->
