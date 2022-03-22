@@ -1,7 +1,7 @@
 ---
 title: "Collaborative exploration and reinforcement learning between heterogeneously skilled agents in environments with sparse rewards"
 collection: publications
-permalink: https://ieeexplore.ieee.org/abstract/document/9534146
+permalink: #
 excerpt: #'This paper is about the number 1. The number 2 is left for future work.'
 date: 2021-07-18
 venue: 'International Joint Conference on Neural Networks, IJCNN'
