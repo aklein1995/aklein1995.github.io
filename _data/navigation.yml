@@ -12,7 +12,7 @@ main:
   #- title: "Portfolio"
   #  url: /portfolio/
         
-  - title: "Personal Corner (Blog)"
+  - title: "Blog posts"
     url: /year-archive/
     
   - title: "CV"
