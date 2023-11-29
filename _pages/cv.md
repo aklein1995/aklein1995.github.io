@@ -15,7 +15,7 @@ Education
 * M.S. in Telecommunication Engineering, University of the Basque Country, 2019
   * Eastern New Mexico University, Data Analysis, Aug 2018 - Dec 2018
 * Deep Reinforcement Learning Nanodegree, Udacity, March 2020
-* Ph.D in Reinforcement Learning, University of the Basque Country, 2023 
+* Ph.D in Reinforcement Learning, University of the Basque Country, 2019 - 2023 
   * Supervisors: [Javier Del Ser](https://scholar.google.es/citations?user=p_wY0zUAAAAJ&hl=es),[Esther Villar-Rodriguez](https://scholar.google.es/citations?user=pYQnhycAAAAJ&hl=es) 
 
 Work experience
@@ -30,12 +30,7 @@ Work experience
   
 Skills
 ======
-* Programming
-  * Python
-  * C
-  * LabVIEW
-  * Matlab
-  * Java
+* Programming (Python, C, LabVIEW, Matlab, Java)
 * Data Analysis
 * Deep Learning
 * Linux
