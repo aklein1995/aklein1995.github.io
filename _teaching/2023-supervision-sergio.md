@@ -4,7 +4,7 @@ collection: teaching
 type: "M.S. Thesis Co-supervision"
 permalink: /teaching/ms-2023-sergio
 venue: "Univeridad Internacional de Valencia & TECNALIA"
-date: 2023
+date: 2023-09-01
 ---
 
 <details>
