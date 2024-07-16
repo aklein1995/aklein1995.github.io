@@ -2,7 +2,7 @@
 title: "A Reinforcement Learning-Based Approach for Vehicle Platoon Route Optimization in Last-Mile Delivery"
 collection: supervision
 type: "B.S. Thesis Co-supervision"
-permalink: /supervision/ms-2024-nagore
+permalink: /supervision/bs-2024-nagore
 venue: "University of the Basque Country (UPV/EHU) & TECNALIA"
 date: 2024-09-01
 ---
