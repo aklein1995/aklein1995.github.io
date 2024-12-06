@@ -176,6 +176,8 @@
   position: relative;
   min-width: 250px;
   background: $background-color;
+  // background: $background-color url('/images/maths.png') no-repeat center center;
+  // background-size: cover;
 
   a {
     display: block;

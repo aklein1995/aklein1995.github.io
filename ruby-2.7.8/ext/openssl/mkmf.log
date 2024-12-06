@@ -1,0 +1,218 @@
+=== OpenSSL for Ruby configurator ===
+"gcc -o conftest -I../../.ext/include/x86_64-linux -I../.././include -I../.././ext/openssl    -g -O2 conftest.c  -L. -L../.. -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,/usr/local/lib -L/usr/local/lib -lruby-static -lz -lpthread -lrt -lrt -ldl -lcrypt -lm   -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+"gcc -I../../.ext/include/x86_64-linux -I../.././include -I../.././ext/openssl    -g -O2  -Werror=deprecated-declarations -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+=== Checking for system dependent stuff... ===
+have_library: checking for t_open() in -lnsl... -------------------- no
+
+"gcc -o conftest -I../../.ext/include/x86_64-linux -I../.././include -I../.././ext/openssl    -g -O2 conftest.c  -L. -L../.. -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,/usr/local/lib -L/usr/local/lib -lruby-static -lz -lpthread -lrt -lrt -ldl -lcrypt -lm  -lnsl  -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:14:57: error: ‘t_open’ undeclared (first use in this function); did you mean ‘popen’?
+   14 | int t(void) { void ((*volatile p)()); p = (void ((*)()))t_open; return !p; }
+      |                                                         ^~~~~~
+      |                                                         popen
+conftest.c:14:57: note: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))t_open; return !p; }
+/* end */
+
+"gcc -o conftest -I../../.ext/include/x86_64-linux -I../.././include -I../.././ext/openssl    -g -O2 conftest.c  -L. -L../.. -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,/usr/local/lib -L/usr/local/lib -lruby-static -lz -lpthread -lrt -lrt -ldl -lcrypt -lm  -lnsl  -lm   -lc"
+/usr/bin/ld: /tmp/ccLRlwE3.o: in function `t':
+/home/109499@TRI.LAN/Github/aklein1995.github.io/ruby-2.7.8/ext/openssl/conftest.c:15: undefined reference to `t_open'
+collect2: error: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: extern void t_open();
+15: int t(void) { t_open(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for socket() in -lsocket... -------------------- no
+
+"gcc -o conftest -I../../.ext/include/x86_64-linux -I../.././include -I../.././ext/openssl    -g -O2 conftest.c  -L. -L../.. -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,/usr/local/lib -L/usr/local/lib -lruby-static -lz -lpthread -lrt -lrt -ldl -lcrypt -lm  -lsocket  -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:14:57: error: ‘socket’ undeclared (first use in this function)
+   14 | int t(void) { void ((*volatile p)()); p = (void ((*)()))socket; return !p; }
+      |                                                         ^~~~~~
+conftest.c:14:57: note: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))socket; return !p; }
+/* end */
+
+"gcc -o conftest -I../../.ext/include/x86_64-linux -I../.././include -I../.././ext/openssl    -g -O2 conftest.c  -L. -L../.. -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,/usr/local/lib -L/usr/local/lib -lruby-static -lz -lpthread -lrt -lrt -ldl -lcrypt -lm  -lsocket  -lm   -lc"
+/usr/bin/ld: cannot find -lsocket: No such file or directory
+collect2: error: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: extern void socket();
+15: int t(void) { socket(); return 0; }
+/* end */
+
+--------------------
+
+=== Checking for required stuff... ===
+"pkg-config --exists openssl"
+| pkg-config --libs openssl
+=> "-lssl -lcrypto\n"
+"gcc -o conftest -I../../.ext/include/x86_64-linux -I../.././include -I../.././ext/openssl    -g -O2 conftest.c  -L. -L../.. -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,/usr/local/lib -L/usr/local/lib -lruby-static -lz -lpthread -lrt -lrt -ldl -lcrypt -lm  -lssl -lcrypto -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+| pkg-config --cflags-only-I openssl
+=> "\n"
+| pkg-config --cflags-only-other openssl
+=> "\n"
+| pkg-config --libs-only-l openssl
+=> "-lssl -lcrypto\n"
+package configuration for openssl
+incflags: 
+cflags: 
+ldflags: 
+libs: -lssl -lcrypto
+
+have_header: checking for openssl/ssl.h... -------------------- yes
+
+"gcc -E -I../../.ext/include/x86_64-linux -I../.././include -I../.././ext/openssl     -g -O2   conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <openssl/ssl.h>
+/* end */
+
+--------------------
+
+have_macro: checking for LIBRESSL_VERSION_NUMBER in openssl/opensslv.h... -------------------- no
+
+"gcc -I../../.ext/include/x86_64-linux -I../.././include -I../.././ext/openssl     -g -O2    -c conftest.c"
+conftest.c:6:3: error: #error 
+    6 | # error
+      |   ^~~~~
+conftest.c:7:1: error: expected identifier or ‘(’ before ‘|’ token
+    7 | |:/ === LIBRESSL_VERSION_NUMBER undefined === /:|
+      | ^
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <openssl/opensslv.h>
+4: /*top*/
+5: #ifndef LIBRESSL_VERSION_NUMBER
+6: # error
+7: |:/ === LIBRESSL_VERSION_NUMBER undefined === /:|
+8: #endif
+/* end */
+
+--------------------
+
+checking for OpenSSL version >= 1.0.1 and < 3.0.0... -------------------- no
+
+"gcc -I../../.ext/include/x86_64-linux -I../.././include -I../.././ext/openssl     -g -O2    -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <openssl/opensslv.h>
+4: 
+5: /*top*/
+6: int conftest_const[(OPENSSL_VERSION_NUMBER >= 0x10001000L) ? 1 : -1];
+/* end */
+
+"gcc -I../../.ext/include/x86_64-linux -I../.././include -I../.././ext/openssl     -g -O2    -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <openssl/opensslv.h>
+4: 
+5: /*top*/
+6: int conftest_const[(OPENSSL_VERSION_MAJOR >= 3) ? 1 : -1];
+/* end */
+
+--------------------
+
+/home/109499@TRI.LAN/Github/aklein1995.github.io/ruby-2.7.8/ext/openssl/extconf.rb:111: OpenSSL >= 1.0.1, < 3.0.0 or LibreSSL >= 2.5.0 is required
+	/home/109499@TRI.LAN/Github/aklein1995.github.io/ruby-2.7.8/ext/openssl/extconf.rb:111:in `<top (required)>'
+	./ext/extmk.rb:214:in `load'
+	./ext/extmk.rb:214:in `block in extmake'
+	/home/109499@TRI.LAN/Github/aklein1995.github.io/ruby-2.7.8/lib/mkmf.rb:331:in `open'
+	./ext/extmk.rb:210:in `extmake'
+	./ext/extmk.rb:575:in `block in <main>'
+	./ext/extmk.rb:571:in `each'
+	./ext/extmk.rb:571:in `<main>'

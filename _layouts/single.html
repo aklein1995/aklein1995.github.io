@@ -36,15 +36,26 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'publications' %}
+          <hr style="border: 1px solid #ccc; margin-top: 20px; margin-bottom: 20px;">
+          <div style="margin-bottom: 0; line-height: 0;">
+            Authors: <i>
+              {% assign authors = page.authors | split: ', ' %}
+              {% for author in authors %}
+              {% assign author_trimmed = author | strip | downcase %}
+              {% if author_trimmed contains 'alain andres' %}
+              <span style="color: red; font-weight: bold;">{{ author }}</span>
+              {% else %}
+              {{ author }}
+              {% endif %}
+          
+              {% if forloop.index < forloop.length %}, {% endif %} {% endfor %} </i>
+            
+            <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+            <p>Full paper can be found <a href=" {{ page.paperurl }} "><u>here</u></a></p>
+          </div>
         {% elsif page.collection == 'supervision' %}
-          <!-- Skip publishing date for supervision collection -->
-          {% assign year = page.date | date: "%Y" %}
-          {% assign prev_year = year | minus: 1 %}
-          <p>Course {{ prev_year }}-{{ year }}</p>
-        {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+          <p>{{page.student}}, {{page.directors}}</p>
         {% endif %}
         
              
