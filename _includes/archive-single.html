@@ -41,28 +41,40 @@
     {% if post.collection == 'teaching' %}
       <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
     {% elsif post.collection == 'publications' %}
-      <p style="margin-bottom: 0; line-height: 0;">
+      
+      <p class="page__meta">        
         Authors: <i> 
-          {% assign authors = post.authors | split: ', ' %}        
-          {% for author in authors %}
-            {% assign author_trimmed = author | strip | downcase %}
-            {% if author_trimmed contains 'alain andres' %} 
-              <span style="color: red; font-weight: bold;">{{ author }}</span>
-            {% else %}
-              {{ author }}
-            {% endif %}
-                
-            {% if forloop.index < forloop.length %}, {% endif %}
-          {% endfor %}
-          </i>
-      </p>
-      <p>
-        Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} 
+            {% assign authors = post.authors | split: ', ' %}        
+            {% for author in authors %}
+              {% assign author_trimmed = author | strip | downcase %}
+              {% if author_trimmed contains 'alain andres' %} 
+                <span style="color: red; font-weight: bold;">{{ author }}</span>
+              {% else %}
+                {{ author }}
+              {% endif %}
+                  
+              {% if forloop.index < forloop.length %}, {% endif %}
+            {% endfor %}
+            </i>
+        </p>
+      <p class="archive__item-excerpt">
+          Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} 
       </p>
     
     {% elsif post.collection == 'supervision' %}
-      <div style="line-height: 0;">
-        <p>Student: {{post.student}} ({{post.supervision_type}})
+        <p class="page__meta"><i>Supervisors:
+            {% assign supervisors = post.directors | split: ', ' %}
+            {% for supervisor in supervisors %}
+            {% assign supervisor_trimmed = supervisor | strip | downcase %}
+            {% if supervisor_trimmed contains 'alain andres' %}
+            <strong>{{ supervisor }}</strong>
+            {% else %}
+            {{ supervisor }}
+            {% endif %}
+        
+            {% if forloop.index < forloop.length %}, {% endif %} {% endfor %} </i>
+        </p>
+        <p class="archive__item-excerpt">Student: {{post.student}} ({{post.supervision_type}})
         {% if post.date %}
           {% assign year = post.date | date: "%Y" %}
           {% assign prev_year = year | minus: 1 %}
@@ -72,21 +84,8 @@
           </p>
         {% endif %}
         
-        <p><i>Supervisors: 
-        {% assign supervisors = post.directors | split: ', ' %}
-        {% for supervisor in supervisors %}
-          {% assign supervisor_trimmed = supervisor | strip | downcase %}
-          {% if supervisor_trimmed contains 'alain andres' %}
-          <strong>{{ supervisor }}</strong>
-          {% else %}
-          {{ supervisor }}
-          {% endif %}
 
-          {% if forloop.index < forloop.length %}, {% endif %} 
-        {% endfor %} </i>
-        </p>
-        
-      </div>
+
     {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}

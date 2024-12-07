@@ -37,8 +37,8 @@ layout: default
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.collection == 'publications' %}
-          <hr style="border: 1px solid #ccc; margin-top: 20px; margin-bottom: 20px;">
-          <div style="margin-bottom: 0; line-height: 0;">
+          <!-- <hr style="border: 1px solid #ccc;"> -->
+          <p class="page__meta">
             Authors: <i>
               {% assign authors = page.authors | split: ', ' %}
               {% for author in authors %}
@@ -49,13 +49,19 @@ layout: default
               {{ author }}
               {% endif %}
           
-              {% if forloop.index < forloop.length %}, {% endif %} {% endfor %} </i>
-            
-            <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-            <p>Full paper can be found <a href=" {{ page.paperurl }} "><u>here</u></a></p>
-          </div>
+              {% if forloop.index < forloop.length %}, {% endif %}
+              {% endfor %} 
+              </i>
+            </p>
+            <p class="archive__item-excerpt">
+              Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} 
+            </p>
+            <p class="archive__item-excerpt">
+              Full paper can be found <a href=" {{ page.paperurl }} "><u style="background-color: yellow;">here</u></a>
+            </p>
+          
         {% elsif page.collection == 'supervision' %}
-          <p>{{page.student}}, {{page.directors}}</p>
+          <p class="archive__item-excerpt">{{page.student}}, {{page.directors}}</p>
         {% endif %}
         
              
