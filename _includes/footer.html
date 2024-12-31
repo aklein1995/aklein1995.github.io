@@ -1,6 +1,6 @@
 {% include base_path %}
 
-<div class="page__footer-follow">
+<!-- <div class="page__footer-follow">
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
@@ -19,8 +19,15 @@
     {% endif %}
     <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
   </ul>
-</div>
+</div> -->
 
+<div>
+  <i>"The complex line that delimits the short-sighted and long-term decisions
+  for happiness. The 𝛾 parameter that governs and rules our lives. The
+  motivations behind each decision. The uncertainty of the environment that
+  surrounds us. There is no “optimal” path to follow; the answer for a worth
+  living life is unique and subjective for each human being."</i>
+</div>
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. 
   <!-- {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} 
