@@ -26,7 +26,7 @@ Since 2024, I have been serving as a Lecturer at the University of Deusto, where
     background-color: #f8f9fa; /* Very light gray background for the News section */
     border-left: 5px solid #dee2e6; /* Subtle gray border */
     color: #000; /* Black text for readability */
-    max-height: 400px; /* Limit height of the news section */
+    max-height: 700px; /* Limit height of the news section */
     overflow-y: auto; /* Enable vertical scrolling */
     scrollbar-width: thin; /* Thin scrollbar for Firefox */
     scrollbar-color: #c4c4c4 #f8f9fa; /* Custom scrollbar colors for Firefox */
@@ -74,7 +74,7 @@ Since 2024, I have been serving as a Lecturer at the University of Deusto, where
   /* Responsive adjustments */
   @media (max-width: 768px) {
     .news {
-      max-height: 300px; /* Slightly smaller height for mobile */
+      /*max-height: 300px;*/ /* Slightly smaller height for mobile */
       padding: 0.5rem; /* Adjust padding for smaller screens */
     }
     .news-item {
