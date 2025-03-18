@@ -10,7 +10,7 @@ location: "San Sebastian"
 ---
 
 
-The podcast, available in Spanish, can be listened to [here](https://www.youtube.com/channel/UC-2jTGAmA8lDC4AZQnA_txw). In it, we discuss the following topics within the context of process automation:
+The podcast, available in Spanish, can be listened to [here](https://youtu.be/bMSQBr7gBX8). In it, we discuss the following topics within the context of process automation:
 - Is Artificial Intelligence an option or a necessity in today's world?
 - Differences between Generative Artificial Intelligence and traditional Artificial Intelligence.
 - Benefits and risks of Artificial Intelligence: Security, technological dependency, and regulation.
