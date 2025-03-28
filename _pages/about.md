@@ -18,7 +18,7 @@ In 2023, I completed my PhD in Artificial Intelligence with a Cum Laude distinct
 
 My research interests include Reinforcement Learning, Explainable AI, and Generative Models, with a strong focus on real-world applications in robotics, industrial systems, and autonomous decision-making. **If you're interested in potential collaborations, feel free to reach out**!
 
-<p align="right"><em>Last update: 13/03/2025</em></p>
+<p align="right"><em>Last update: 27/03/2025</em></p>
 
 <style>
   .news {
@@ -95,6 +95,18 @@ My research interests include Reinforcement Learning, Explainable AI, and Genera
 <hr>
 
 <section class="news">
+  <article class="news-item">
+    <h2>ITSC 2024 Paper Proceedings</h2>
+    <p><time datetime="2025-03-20">March 20, 2025</time></p>
+    <p>Our article "<strong>Single Agent Formulation for Reinforcement Learning Based Routing of Urban Last Mile Logistics with Platooning Vehicles</strong>" is now available in the <a href="https://ieeexplore.ieee.org/document/10920018">conference proceedings</a>.</p>
+  </article>
+
+  <article class="news-item">
+    <h2><i class="fas fa-microphone-alt" aria-hidden="true"></i> PODCAST: Impact of Artificial Intelligence on Industry</h2>
+    <p><time datetime="2025-03-13">March 13, 2025</time></p>
+    <p>The podcast recorded in collaboration between <a href="https://movingrobots.tech/es/">Moving Robots</a> and <a href="https://www.tecnalia.com/">Tecnalia</a> is now available to watch on <a href="https://youtu.be/bMSQBr7gBX8">YouTube</a>.</p>
+  </article>
+
   <article class="news-item">
     <h2>📄 Article Accepted at Neurocomputing</h2>
     <p><time datetime="2024-11-27">November 27, 2024</time></p>
