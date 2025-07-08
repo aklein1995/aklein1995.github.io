@@ -18,7 +18,7 @@ In 2023, I completed my PhD in Artificial Intelligence with a Cum Laude distinct
 
 My research interests include Reinforcement Learning, Explainable AI, and Generative Models, with a strong focus on real-world applications in robotics, industrial systems, and autonomous decision-making. **If you're interested in potential collaborations, feel free to reach out**!
 
-<p align="right"><em>Last update: 27/03/2025</em></p>
+<p align="right"><em>Last update: 08/07/2025</em></p>
 
 <style>
   .news {
@@ -95,6 +95,19 @@ My research interests include Reinforcement Learning, Explainable AI, and Genera
 <hr>
 
 <section class="news">
+  <article class="news-item">
+    <h2>📄 Paper Accepted at IROS 2025</h2>
+    <p><time datetime="2025-06-16">June 16, 2025</time></p>
+    <p>Our work "<strong>Towards Surgical Task Automation: Actor-Critic Models Meet Self-Supervised Imitation Learning</strong>" has been accepted for publication in the Proceedings of the 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025).</p>
+    <p class="impact-details">CORE ranking: A</p>
+  </article>
+
+  <article class="news-item">
+    <h2>📄 Paper Accepted at TAROS 2025</h2>
+    <p><time datetime="2025-05-19">May 19, 2025</time></p>
+    <p>Our work "<strong>Comparative Evaluation of RL and MPC for 6DoF AUV Control</strong>" has been accepted to Towards Autonomous Robotic Systems (TAROS 2025).</p>
+  </article>
+
   <article class="news-item">
     <h2>ITSC 2024 Paper Proceedings</h2>
     <p><time datetime="2025-03-20">March 20, 2025</time></p>
