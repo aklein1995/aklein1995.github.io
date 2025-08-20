@@ -7,7 +7,7 @@ date: 2024-10-09
 venue: 'Intrinsically Motivated Open-ended Learning workshop at NeurIPS'
 paperurl: 'https://arxiv.org/abs/2410.07404'
 citation: #'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
-authors: Alain Andres, Javier Del Ser
+authors: Alain Andres*, Javier Del Ser
 ---
 **Abstract**: Exploration remains a significant challenge in reinforcement learning, especially in environments where extrinsic rewards are sparse or non-existent. The recent rise of foundation models, such as CLIP, offers an opportunity to leverage pretrained, semantically rich embeddings that encapsulate broad and reusable knowledge. In this work we explore the potential of these foundation models not just to drive exploration, but also to analyze the critical role of the episodic novelty term in enhancing exploration effectiveness of the agent. We also investigate whether providing the intrinsic module with complete state information -- rather than just partial observations -- can improve exploration, despite the difficulties in handling small variations within large state spaces. 
 

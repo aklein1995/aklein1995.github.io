@@ -7,7 +7,7 @@ date: 2024-06-19
 venue: 'Mathematics'
 paperurl: 'https://www.mdpi.com/2227-7390/12/12/1898'
 citation: #'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
-authors: Luis Moles, Alain Andres, Goretti Echegaray, Fernando Boto
+authors: Luis Moles*, Alain Andres, Goretti Echegaray, Fernando Boto
 ---
 **Abstract**: Despite the increasing availability of vast amounts of data, the challenge of acquiring labeled data persists. This issue is particularly serious in supervised learning scenarios, where labeled data are essential for model training. In addition, the rapid growth in data required by cutting-edge technologies such as deep learning makes the task of labeling large datasets impractical. Active learning methods offer a powerful solution by iteratively selecting the most informative unlabeled instances, thereby reducing the amount of labeled data required. However, active learning faces some limitations with imbalanced datasets, where majority class over-representation can bias sample selection. To address this, combining active learning with data augmentation techniques emerges as a promising strategy. Nonetheless, the best way to combine these techniques is not yet clear. 
 

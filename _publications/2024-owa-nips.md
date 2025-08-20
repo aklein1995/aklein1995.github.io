@@ -7,7 +7,7 @@ date: 2024-10-11
 venue: 'Open-World Agents workshop at NeurIPS'
 paperurl: 'https://arxiv.org/abs/2410.08632'
 citation: #'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
-authors: Unai Ruiz-Gonzalez, Alain Andres, Pedro G Bascoy, Javier Del Ser
+authors: Unai Ruiz-Gonzalez*, Alain Andres, Pedro G Bascoy, Javier Del Ser
 ---
 **Abstract**: Sparse reward environments in reinforcement learning (RL) pose significant challenges for exploration, often leading to inefficient or incomplete learning processes. To tackle this issue, this work proposes a teacher-student RL framework that leverages Large Language Models (LLMs) as "teachers" to guide the agent's learning process by decomposing complex tasks into subgoals. 
 

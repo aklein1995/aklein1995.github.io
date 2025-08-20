@@ -7,7 +7,7 @@ date: 2024-11-26
 venue: 'Results in Engineering'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S259012302401750X'
 citation: #'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
-authors: Alain Andres, Aitor Martinez-Seras, Ibai Laña, Javier Del Ser
+authors: Alain Andres*, Aitor Martinez-Seras, Ibai Laña, Javier Del Ser
 ---
 **Abstract**: In the realm of human-machine interaction, artificial intelligence has become a powerful tool for accelerating data modeling tasks. Object detection methods have achieved outstanding results and are widely used in critical domains like autonomous driving and video surveillance. However, their adoption in high-risk applications, where errors may cause severe consequences, remains limited. Explainable Artificial Intelligence methods aim to address this issue, but many existing techniques are model-specific and designed for classification tasks, making them less effective for object detection and difficult for non-specialists to interpret. 
 

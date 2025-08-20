@@ -7,7 +7,7 @@ date: 2022-08-11
 venue: 'International Cross Domain Conference for Machine Learning and Knowledge Extraction, CD-MAKE'
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-031-14463-9_13'
 citation: #'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
-authors: Alain Andres, Esther Villar-Rodriguez, Javier Del Ser
+authors: Alain Andres*, Esther Villar-Rodriguez, Javier Del Ser
 ---
 **Abstract**: In the last few years, the research activity around reinforcement learning tasks formulated over environments with sparse rewards has been especially notable. Among the numerous approaches proposed to deal with these hard exploration problems, intrinsic motivation mechanisms are arguably among the most studied alternatives to date. 
 

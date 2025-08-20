@@ -7,7 +7,7 @@ date: 2024-06-30
 venue: 'International Joint Conference on Neural Networks, IJCNN'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10650670'
 citation: #'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
-authors: Aitor Martinez-Seras, Alain Andres, Javier Del Ser
+authors: Aitor Martinez-Seras*, Alain Andres, Javier Del Ser
 ---
 **Abstract**: Safety in AI-based systems is among the highest research priorities, particularly when such systems are deployed in real-world scenarios subject to uncertainties and unpredictable inputs. Among them, the presence of long-tailed stimuli (Out-of-Distribution data, OoD) has captured much interest in recent times, giving rise to many proposals over the years to detect unfamiliar inputs to the model and adapt its knowledge accordingly.
 

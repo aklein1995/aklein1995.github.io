@@ -7,7 +7,7 @@ date: 2025-02-14
 venue: 'Neurocomputing'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0925231224018502'
 citation: #'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
-authors: Alain Andres, Lukas Schäfer, Stefano V Albrecht, Javier Del Ser
+authors: Alain Andres*, Lukas Schäfer, Stefano V Albrecht, Javier Del Ser
 ---
 
 *Previously presented at 2023 Adaptive and Learning Agents Workshop (AAMAS Conference)*

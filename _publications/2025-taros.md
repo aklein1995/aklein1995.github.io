@@ -5,7 +5,7 @@ permalink: #
 excerpt: #'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-08-20
 venue: 'Towards Autonomous Robotic Systems, TAROS'
-paperurl: 'https://taros-conference.org/programme/'
+paperurl: 'https://link.springer.com/chapter/10.1007/978-3-032-01486-3_29'
 authors: Sümer Tunçay*, Alain Andres, Ignacio Carlucho
 ---
 **Abstract**: 
