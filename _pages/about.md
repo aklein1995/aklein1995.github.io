@@ -97,8 +97,8 @@ My research interests include Reinforcement Learning, Explainable AI, and Genera
 <section class="news">
  <article class="news-item">
     <h2>🧾 Article Accepted at <i>Engineering Applications of Artificial Intelligence</i></h2>
-    <p><time datetime="2024-11-27">November 27, 2024</time></p>
-    <p>Our article "<strong>Using Offline Data to Speed-up Reinforcement Learning in Procedurally Generated Environments</strong>" has been accepted in the Neurocomputing journal. This paper builds upon findings presented at the ALA Workshop during the 2023 AAMAS conference, combining reinforcement learning and imitation learning for improved generalization and sample efficiency.</p>
+    <p><time datetime="2025-08-20">August 20, 2025</time></p>
+    <p>Our article "<strong>Evaluating Reinforcement Learning-Based Neural Controllers for Quadcopter Navigation in Windy Conditions</strong>" has been accepted in the Engineering Applications of Artificial Intelligence journal. In this paper we analyze how different training strategies and the state representation composition affect the performance of a DRL agent under unpredictable gusts and navigation constraints.</p>
     <p class="impact-details">Impact Factor: 8.0 (Q1)</p>
   </article>
 
