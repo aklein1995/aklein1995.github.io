@@ -95,24 +95,31 @@ My research interests include Reinforcement Learning, Explainable AI, and Genera
 <hr>
 
 <section class="news">
+ <article class="news-item">
+    <h2>🧾 Article Accepted at <i>Engineering Applications of Artificial Intelligence</i></h2>
+    <p><time datetime="2024-11-27">November 27, 2024</time></p>
+    <p>Our article "<strong>Using Offline Data to Speed-up Reinforcement Learning in Procedurally Generated Environments</strong>" has been accepted in the Neurocomputing journal. This paper builds upon findings presented at the ALA Workshop during the 2023 AAMAS conference, combining reinforcement learning and imitation learning for improved generalization and sample efficiency.</p>
+    <p class="impact-details">Impact Factor: 8.0 (Q1)</p>
+  </article>
+
   <article class="news-item">
-    <h2>📄 Paper Accepted at ECAI 2025</h2>
+    <h2>🎯 Paper Accepted at ECAI 2025</h2>
     <p><time datetime="2025-06-16">July 10, 2025</time></p>
     <p>Our work "<strong>D-CRISP: Explaining Object Detectors by combining Randomized and Segment-based Perturbations</strong>" has been accepted in the 28th European Conference on Artificial Intelligence (ECAI).</p>
     <p class="impact-details">CORE ranking: A</p>
   </article>
 
   <article class="news-item">
-    <h2>📄 Paper Accepted at IROS 2025</h2>
+    <h2>🎯 Paper Accepted at IROS 2025</h2>
     <p><time datetime="2025-06-16">June 16, 2025</time></p>
     <p>Our work "<strong>Towards Surgical Task Automation: Actor-Critic Models Meet Self-Supervised Imitation Learning</strong>" has been accepted for publication in the Proceedings of the 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).</p>
     <p class="impact-details">CORE ranking: A</p>
   </article>
 
   <article class="news-item">
-    <h2>📄 Paper Accepted at TAROS 2025</h2>
+    <h2>🎯 Paper Accepted at TAROS 2025</h2>
     <p><time datetime="2025-05-19">May 19, 2025</time></p>
-    <p>Our work "<strong>Comparative Evaluation of RL and MPC for 6DoF AUV Control</strong>" has been accepted to Towards Autonomous Robotic Systems (TAROS) For more information, check the <a href="https://ieeexplore.ieee.org/document/10920018"> paper</a> .</p>
+    <p>Our work "<strong>Comparative Evaluation of RL and MPC for 6DoF AUV Control</strong>" has been accepted to Towards Autonomous Robotic Systems (TAROS). For more information, check the <a href="https://ieeexplore.ieee.org/document/10920018"> paper</a> .</p>
   </article>
 
   <article class="news-item">
@@ -128,21 +135,21 @@ My research interests include Reinforcement Learning, Explainable AI, and Genera
   </article>
 
   <article class="news-item">
-    <h2>📄 Article Accepted at Neurocomputing</h2>
+    <h2>🧾 Article Accepted at <i>Neurocomputing</i></h2>
     <p><time datetime="2024-11-27">November 27, 2024</time></p>
     <p>Our article "<strong>Using Offline Data to Speed-up Reinforcement Learning in Procedurally Generated Environments</strong>" has been accepted in the Neurocomputing journal. This paper builds upon findings presented at the ALA Workshop during the 2023 AAMAS conference, combining reinforcement learning and imitation learning for improved generalization and sample efficiency.</p>
-    <p class="impact-details">Impact Factor: 5.5 (Q1)</p>
+    <p class="impact-details">Impact Factor: 6.5 (Q1)</p>
   </article>
 
   <article class="news-item">
-    <h2>📄 Article Accepted at Results in Engineering</h2>
+    <h2>🧾 Article Accepted at <i>Results in Engineering</i></h2>
     <p><time datetime="2024-11-21">November 21, 2024</time></p>
     <p>Our work "<strong>On the Black-box Explainability of Object Detection Models for Safe and Trustworthy Industrial Applications</strong>" has been accepted in the Results in Engineering journal. This study provides post-hoc explanations for object detectors, focusing on one-stage YOLO models applied to real-world data.</p>
-    <p class="impact-details">Impact Factor: 6.0 (Q1)</p>
+    <p class="impact-details">Impact Factor: 7.9 (Q1)</p>
   </article>
 
   <article class="news-item">
-    <h2>🎉 NeurIPS IMOL and OWA Workshops</h2>
+    <h2>🎯 NeurIPS IMOL and OWA Workshops</h2>
     <p><time datetime="2024-10-11">October 11, 2024</time></p>
     <p>Our works "<strong>Fostering Intrinsic Motivation in Reinforcement Learning with Pretrained Foundation Models</strong>" and "<strong>Words as Beacons: Guiding RL Agents with High-Level Language Prompts</strong>" have been accepted at the Intrinsically Motivated Open-ended Learning (IMOL) and Open-World Agents (OWA) workshops, respectively. These studies explore leveraging large language models (LLMs) and vision-language models (VLMs) to enhance reinforcement learning agents' learning and performance.</p>
   </article>
