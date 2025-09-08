@@ -98,7 +98,7 @@ My research interests include Reinforcement Learning, Explainable AI, and Genera
  <article class="news-item">
     <h2>🧾 Article Accepted at <i>Engineering Applications of Artificial Intelligence</i></h2>
     <p><time datetime="2025-08-20">August 20, 2025</time></p>
-    <p>Our article "<strong>Evaluating Reinforcement Learning-Based Neural Controllers for Quadcopter Navigation in Windy Conditions</strong>" has been accepted in the Engineering Applications of Artificial Intelligence journal. In this paper we analyze how different training strategies and the state representation composition affect the performance of a DRL agent under unpredictable gusts and navigation constraints.</p>
+    <p>Our article "<strong>Evaluating Reinforcement Learning-Based Neural Controllers for Quadcopter Navigation in Windy Conditions</strong>" has been accepted in the Engineering Applications of Artificial Intelligence journal. In this paper we analyze how different training strategies and the state representation composition affect the performance of a DRL agent under unpredictable gusts and navigation constraints. For more information, check the <a href="https://www.sciencedirect.com/science/article/pii/S0952197625020986"> paper</a> .</p>
     <p class="impact-details">Impact Factor: 8.0 (Q1)</p>
   </article>
 
@@ -119,7 +119,7 @@ My research interests include Reinforcement Learning, Explainable AI, and Genera
   <article class="news-item">
     <h2>🎯 Paper Accepted at TAROS 2025</h2>
     <p><time datetime="2025-05-19">May 19, 2025</time></p>
-    <p>Our work "<strong>Comparative Evaluation of RL and MPC for 6DoF AUV Control</strong>" has been accepted to Towards Autonomous Robotic Systems (TAROS). For more information, check the <a href="https://ieeexplore.ieee.org/document/10920018"> paper</a> .</p>
+    <p>Our work "<strong>Comparative Evaluation of RL and MPC for 6DoF AUV Control</strong>" has been accepted to Towards Autonomous Robotic Systems (TAROS). For more information, check the <a href="https://link.springer.com/chapter/10.1007/978-3-032-01486-3_29"> paper</a> .</p>
   </article>
 
   <article class="news-item">
