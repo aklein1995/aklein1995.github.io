@@ -27,7 +27,7 @@ Work experience
   * University of the Basque Country & TECNALIA
   * Data anonymization/pseudonymization, Post-quantum algorithms, Quantum Key Distribution
 
-  
+<!-- 
 Projects
 ======
 * 2022-today: [FaRADAI](https://faradai.eu/) (Frugal And Robust AI for Defence Advanced Intelligence)
@@ -37,7 +37,7 @@ Projects
 * 2024-today: GRECO (Transformación de la ingeniería de sistemas IA para mejorar la eficiencia y el impacto medioambiental a través de GREen COmputing)
 * 2024-today: IKUN (Grandes Modelos Multimodales para Aseguramiento de Calidad y Soporte al Operario en Industria Inteligente)
 * 2024-today: IKASLAGUN
-
+-->
 <!-- Publications
 ======
   <ul>{% for post in site.publications %}

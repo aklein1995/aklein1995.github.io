@@ -1,6 +1,6 @@
 ---
-title: "Photorealistic simulation of UAV aerial operations for accelerated training of perception and control algorithms."
-original_title: "Simulación fotorrealista de operaciones aéreas de UAVs para el entrenamiento acelerado de algoritmos de percepción y control"
+title: "Applying Domain Randomization to reduce the reality gap in intelligent flight control algorithm in quadrotors"
+# original_title: "Simulación fotorrealista de operaciones aéreas de UAVs para el entrenamiento acelerado de algoritmos de percepción y control"
 collection: supervision
 supervision_type: "M.S."
 permalink: /supervision/ms-2025-arantzatzu
