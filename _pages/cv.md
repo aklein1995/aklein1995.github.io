@@ -26,7 +26,10 @@ Work experience
 * Dec 2017 - Jul 2018: Cybersecurity Internship
   * University of the Basque Country & TECNALIA
   * Data anonymization/pseudonymization, Post-quantum algorithms, Quantum Key Distribution
-
+* Nov 2022 - today: Data Scientist and Researcher
+  * TECNALIA
+* Sep 2024 - today: Lecturer
+  * University of Deusto
 <!-- 
 Projects
 ======

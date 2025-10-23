@@ -18,7 +18,7 @@ In 2023, I completed my PhD in Artificial Intelligence with a Cum Laude distinct
 
 My research interests include Reinforcement Learning, Explainable AI, and Generative Models, with a strong focus on real-world applications in robotics, industrial systems, and autonomous decision-making. **If you're interested in potential collaborations, feel free to reach out**!
 
-<p align="right"><em>Last update: 20/08/2025</em></p>
+<p align="right"><em>Last update: 23/10/2025</em></p>
 
 <style>
   .news {
@@ -95,6 +95,13 @@ My research interests include Reinforcement Learning, Explainable AI, and Genera
 <hr>
 
 <section class="news">
+  <article class="news-item">
+    <h2>🧾 Article Accepted at <i>Machine Learning & Knowledge Extraction</i></h2>
+    <p><time datetime="2025-10-22">October 22, 2025</time></p>
+    <p>Our article "<strong>Large Language Models for Structured Task Decomposition in Reinforcement Learning Problems with Sparse Rewards</strong>" has been accepted in the Machine Learning & Knowledge Extraction journal. In this work we propose a teacher–student framework for RL that leverages the inherent knowledge of LLMs to decompose complex tasks into manageable subgoals. For more information, check the <a href="https://www.mdpi.com/2504-4990/7/4/126"> paper</a> .</p>
+    <p class="impact-details">Impact Factor: 6.0 (Q1)</p>
+  </article>
+
  <article class="news-item">
     <h2>🧾 Article Accepted at <i>Engineering Applications of Artificial Intelligence</i></h2>
     <p><time datetime="2025-08-20">August 20, 2025</time></p>
