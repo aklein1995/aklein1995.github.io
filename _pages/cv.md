@@ -30,6 +30,7 @@ Work experience
   * TECNALIA
 * Sep 2024 - today: Lecturer
   * University of Deusto
+
 <!-- 
 Projects
 ======
