@@ -18,7 +18,7 @@ In 2023, I completed my PhD in Artificial Intelligence with a Cum Laude distinct
 
 My research interests include Reinforcement Learning, Explainable AI, and Generative Models, with a strong focus on real-world applications in robotics, industrial systems, and autonomous decision-making. **If you're interested in potential collaborations, feel free to reach out**!
 
-<p align="right"><em>Last update: 23/10/2025</em></p>
+<p align="right"><em>Last update: 05/02/2026</em></p>
 
 <style>
   .news {
