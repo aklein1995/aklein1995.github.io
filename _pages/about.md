@@ -95,6 +95,14 @@ My research interests include Reinforcement Learning, Explainable AI, and Genera
 <hr>
 
 <section class="news">
+
+  <article class="news-item">
+    <h2>🧾 Article Accepted at <i>Neural Networks</i></h2>
+    <p><time datetime="2026-02-04">February 4, 2026</time></p>
+    <p>Our article "<strong>On the Inherent Robustness of One-Stage Object Detection against Out-of-Distribution Data</strong>" has been accepted in the Neural Networks journal. In this work we propose a novel detection algorithm for detecting unknown objects in image data, which leverages the features extracted by the model from each sample. Differently from other recent approaches in the literature, our proposal does not require retraining the object detector, thereby allowing for the use of pretrained models. For more information, check the <a href="https://doi.org/10.1016/j.neunet.2026.108683"> paper</a> .</p>
+    <p class="impact-details">Impact Factor: 6.3 (Q1)</p>
+  </article>
+
   <article class="news-item">
     <h2>🧾 Article Accepted at <i>Machine Learning & Knowledge Extraction</i></h2>
     <p><time datetime="2025-10-22">October 22, 2025</time></p>
