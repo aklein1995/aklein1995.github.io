@@ -18,7 +18,7 @@ In 2023, I completed my PhD in Artificial Intelligence with a Cum Laude distinct
 
 My research interests include Reinforcement Learning, Explainable AI, and Generative Models, with a strong focus on real-world applications in robotics, industrial systems, and autonomous decision-making. **If you're interested in potential collaborations, feel free to reach out**!
 
-<p align="right"><em>Last update: 05/02/2026</em></p>
+<p align="right"><em>Last update: 12/02/2026</em></p>
 
 <style>
   .news {
@@ -97,9 +97,16 @@ My research interests include Reinforcement Learning, Explainable AI, and Genera
 <section class="news">
 
   <article class="news-item">
+    <h2>🧾 Article Accepted at <i>Results in Engineering</i></h2>
+    <p><time datetime="2026-02-12">February 12, 2026</time></p>
+    <p>Our work "<strong>Enhancing design of experiments through uncertainty estimation and synthetic data generation</strong>" has been accepted in the Results in Engineering journal. In this paper we analyze several uncertainty estimators and data augmentation techniques and apply them in a framework that combines real and synthetic data for a femtosecond laser texturing process. For more information, check the <a href="https://doi.org/10.1016/j.rineng.2026.109409"> paper</a>.</p> 
+    <p class="impact-details">Impact Factor: 7.9 (Q1)</p>
+  </article>
+
+  <article class="news-item">
     <h2>🧾 Article Accepted at <i>Neural Networks</i></h2>
     <p><time datetime="2026-02-04">February 4, 2026</time></p>
-    <p>Our article "<strong>On the Inherent Robustness of One-Stage Object Detection against Out-of-Distribution Data</strong>" has been accepted in the Neural Networks journal. In this work we propose a novel detection algorithm for detecting unknown objects in image data, which leverages the features extracted by the model from each sample. Differently from other recent approaches in the literature, our proposal does not require retraining the object detector, thereby allowing for the use of pretrained models. For more information, check the <a href="https://doi.org/10.1016/j.neunet.2026.108683"> paper</a> .</p>
+    <p>Our article "<strong>On the Inherent Robustness of One-Stage Object Detection against Out-of-Distribution Data</strong>" has been accepted in the Neural Networks journal. In this work we propose a novel detection algorithm for detecting unknown objects in image data, which leverages the features extracted by the model from each sample. Differently from other recent approaches in the literature, our proposal does not require retraining the object detector, thereby allowing for the use of pretrained models. For more information, check the <a href="https://doi.org/10.1016/j.neunet.2026.108683"> paper</a>.</p>
     <p class="impact-details">Impact Factor: 6.3 (Q1)</p>
   </article>
 
